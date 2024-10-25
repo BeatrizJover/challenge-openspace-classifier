@@ -1,4 +1,4 @@
-from table import Table
+from utils.table import Table
 import random
 import pandas as pd
 
@@ -44,3 +44,4 @@ class Openspace:
      print(rows)
      df1 = pd.DataFrame(rows)# se convierte la lista de listas en Dataframe
      df1.to_excel('TablesDistribution.xlsx',index=False)
+
