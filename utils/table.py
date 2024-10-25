@@ -116,6 +116,3 @@ class Table:
             print(s.free)
             print(s.occupant)
         print (f"Left Capacities{self.left_capacity()}")
-
-
-

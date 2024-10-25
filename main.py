@@ -37,3 +37,4 @@ def check(names, num_of_tables):
         op.store()
 
 get_num_of_tables()
+
