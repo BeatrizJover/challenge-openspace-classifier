@@ -1,4 +1,4 @@
-# Challenge Openspace Classifier
+# Challenge Open space Classifier
 
 ## Table of Contents
 - [Description](#description)
