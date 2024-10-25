@@ -40,7 +40,7 @@ class Openspace:
             row.append(self.tables[j].seats[i].occupant)
         rows.append(row)# se guarda la lista en la lista de listas
         row=[]#Vuelve la lista row que se usa para cada fila una lista vacia
-     print(rows)
+     #print(rows)
      df1 = pd.DataFrame(rows)# se convierte la lista de listas en Dataframe
      df1.to_excel('TablesDistribution.xlsx',index=False)
 
