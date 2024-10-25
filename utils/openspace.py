@@ -2,7 +2,6 @@ from utils.table import Table
 import random
 import pandas as pd
 
-
 class Openspace:
 
     def __init__(self, number_of_tables):
