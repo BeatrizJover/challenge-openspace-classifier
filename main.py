@@ -35,6 +35,8 @@ def check(names, num_of_tables):
         op.organize(names)
         op.display()
         op.store()
+        empty_spaces = (num_of_tables * 4) - len(names)
+        print(f'There are {empty_spaces} seats left.')
 
 get_num_of_tables()
 
